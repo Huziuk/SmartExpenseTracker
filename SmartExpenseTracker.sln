@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartExpenseTracker.Api", "SmartExpenseTracker.Api\SmartExpenseTracker.Api.csproj", "{A2B0BF36-4D33-4014-8DEF-1B1D6E5867AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartExpenseTracker.Application", "SmartExpenseTracker.Application\SmartExpenseTracker.Application.csproj", "{DE1D889E-003B-481E-8D04-6F50C485AB9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartExpenseTracker.Domain", "SmartExpenseTracker.Domain\SmartExpenseTracker.Domain.csproj", "{DB4B2B87-6E9D-4524-B2F6-819E009A0C66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartExpenseTracker.Infrastructure", "SmartExpenseTracker.Infrastructure\SmartExpenseTracker.Infrastructure.csproj", "{20FFC543-72D4-4C51-956E-92E59CCC6DAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartExpenseTracker.Client", "SmartExpenseTracker.Client\SmartExpenseTracker.Client.csproj", "{0505BD97-654F-40F8-BF57-53EF0AD392FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A2B0BF36-4D33-4014-8DEF-1B1D6E5867AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2B0BF36-4D33-4014-8DEF-1B1D6E5867AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2B0BF36-4D33-4014-8DEF-1B1D6E5867AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2B0BF36-4D33-4014-8DEF-1B1D6E5867AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE1D889E-003B-481E-8D04-6F50C485AB9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE1D889E-003B-481E-8D04-6F50C485AB9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE1D889E-003B-481E-8D04-6F50C485AB9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE1D889E-003B-481E-8D04-6F50C485AB9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB4B2B87-6E9D-4524-B2F6-819E009A0C66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB4B2B87-6E9D-4524-B2F6-819E009A0C66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB4B2B87-6E9D-4524-B2F6-819E009A0C66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB4B2B87-6E9D-4524-B2F6-819E009A0C66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20FFC543-72D4-4C51-956E-92E59CCC6DAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20FFC543-72D4-4C51-956E-92E59CCC6DAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20FFC543-72D4-4C51-956E-92E59CCC6DAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20FFC543-72D4-4C51-956E-92E59CCC6DAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0505BD97-654F-40F8-BF57-53EF0AD392FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0505BD97-654F-40F8-BF57-53EF0AD392FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0505BD97-654F-40F8-BF57-53EF0AD392FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0505BD97-654F-40F8-BF57-53EF0AD392FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
