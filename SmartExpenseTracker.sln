@@ -11,7 +11,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartExpenseTracker.Domain"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartExpenseTracker.Infrastructure", "SmartExpenseTracker.Infrastructure\SmartExpenseTracker.Infrastructure.csproj", "{20FFC543-72D4-4C51-956E-92E59CCC6DAE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartExpenseTracker.Client", "SmartExpenseTracker.Client\SmartExpenseTracker.Client.csproj", "{0505BD97-654F-40F8-BF57-53EF0AD392FD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartExpenseTracker.Client", "SmartExpenseTracker.Client\SmartExpenseTracker.Client.csproj", "{4A6D59B2-8E9C-48F2-AECF-965370183B05}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{C73BC4F6-D1FC-4082-9186-6A936DED5238}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartExpenseTracker.Shared", "SmartExpenseTracker.Shared\SmartExpenseTracker.Shared.csproj", "{CCC0D2C5-EDC7-473F-AEBA-2E6D2F878F5C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -38,9 +42,16 @@ Global
 		{20FFC543-72D4-4C51-956E-92E59CCC6DAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{20FFC543-72D4-4C51-956E-92E59CCC6DAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{20FFC543-72D4-4C51-956E-92E59CCC6DAE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0505BD97-654F-40F8-BF57-53EF0AD392FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0505BD97-654F-40F8-BF57-53EF0AD392FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0505BD97-654F-40F8-BF57-53EF0AD392FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0505BD97-654F-40F8-BF57-53EF0AD392FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A6D59B2-8E9C-48F2-AECF-965370183B05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A6D59B2-8E9C-48F2-AECF-965370183B05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A6D59B2-8E9C-48F2-AECF-965370183B05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A6D59B2-8E9C-48F2-AECF-965370183B05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCC0D2C5-EDC7-473F-AEBA-2E6D2F878F5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCC0D2C5-EDC7-473F-AEBA-2E6D2F878F5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCC0D2C5-EDC7-473F-AEBA-2E6D2F878F5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCC0D2C5-EDC7-473F-AEBA-2E6D2F878F5C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CCC0D2C5-EDC7-473F-AEBA-2E6D2F878F5C} = {C73BC4F6-D1FC-4082-9186-6A936DED5238}
 	EndGlobalSection
 EndGlobal

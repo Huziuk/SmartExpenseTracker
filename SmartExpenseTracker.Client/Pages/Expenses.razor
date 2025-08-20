@@ -1,0 +1,50 @@
+@using SmartExpenseTracker.Client.Services
+@using SmartExpenseTracker.Shared.Dto
+@inject HttpClient HttpClient
+@inject ExpenseApiService ExpenseApiService
+
+@page "/expenses"
+
+<h3 class="mb-3">My Expenses</h3>
+
+@if (_expenses is null)
+{
+    <p>Loading...</p>
+}
+else if (!_expenses.Any())
+{
+    <p>No expenses found.</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+        <tr>
+            <th>Description</th>
+            <th>Amount</th>
+            <th>Category</th>
+            <th>Date</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var exp in _expenses)
+        {
+            <tr>
+                <td>@exp.Description</td>
+                <td>@exp.Amount.ToString("C")</td>
+                <td>@exp.Category</td>
+                <td>@exp.Date.ToShortDateString()</td>
+            </tr>
+        }
+        </tbody>
+    </table>
+}
+
+@code {
+    private List<ExpenseDto> _expenses;
+
+    protected override async Task OnInitializedAsync()
+    { 
+        _expenses = await ExpenseApiService.GetAllAsync();
+    }
+}
